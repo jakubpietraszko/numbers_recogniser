@@ -11,7 +11,7 @@ from model import Model
 class Draw():
     def __init__(self) -> None:
         self.root: tk.Tk = tk.Tk()
-        self.root.title('Test Program')
+        self.root.title('Numbers Recogniser')
         self.root.grid_rowconfigure(0, weight=1)
         self.root.grid_columnconfigure(0, weight=1)
 
